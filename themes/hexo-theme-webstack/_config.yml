@@ -268,7 +268,7 @@ hotTools:
 myBlog:
   - name: 云生博客
     url: https://qikaile.tk/
-    img: /images/logos/myBlog.png
+    img: /images/logos/myblog.png
     description: 一个懒人的博客。
 
 about:
