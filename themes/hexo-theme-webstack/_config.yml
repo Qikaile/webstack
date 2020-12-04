@@ -1,0 +1,331 @@
+favicon: /favicon.ico
+banner: /images/webstack_banner_cn.png
+
+logo:
+  expanded: /images/logo@2x.png
+  collapsed: /images/logo-collapsed@2x.png
+  dark: /images/logo_dark@2x.png
+
+flag:
+  icon: flag-cn
+  name: Chinese
+
+githubCorner: '<a href="https://github.com/qikaile" class="github-corner" aria-label="View source on GitHub"><svg width="80" height="80" viewBox="0 0 250 250" style="fill:#151513; color:#fff; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>'
+
+menu:
+  - name: 常用网站
+    icon: fa fa-home
+    config: webTools
+  - name: 工具合集
+    icon: far fa-star
+    submenu:
+      - name: 在线工具
+        icon: fas fa-tools
+        config: hotTools
+      - name: 在线课程
+        icon: fas fa-tools
+        config: Class
+      - name: 网址导航
+        icon: fas fa-tools
+        config: navigate
+      - name: 社区博客
+        icon: fas fa-tools
+        config: Communityblog
+
+  - name: 其他工具
+    icon: fas fa-tools
+    submenu:
+      - name: 开发工具
+        icon: fas fa-tools
+        config: devTools
+      - name: 我的博客
+        icon: fas fa-blog
+        config: myBlog
+
+Communityblog:
+  - name: 鹏少资源网
+    url: https://www.jokerps.com/
+    img: /images/logos/950f687c0e357004.jpg
+    description: 一个分享全平台软件应用、插件模板等所有资源的优质网站
+  - name: SaoDaye
+    url: https://saodaye.com/
+    img: /images/logos/35a016ecb5c8b9f2.jpeg
+    description: 大爷，不骚！
+  - name: lcddjm
+    url: https://www.lcddjm.com/
+    img: /images/logos/4f019501a0e42238.jpg
+    description: lcddjm's website
+  - name: 两伙青年博客
+    url: https://2huoqingnian.com/
+    img: /images/logos/3abd0392610aa5c3.jpg
+    description: 专注于平面设计与影视后期技术探索
+  - name: 设计师的小小盒
+    url: https://www.biliui.com/
+    img: /images/logos/3692483f1df59e60.png
+    description: 我是一名UI设计师，干着一条龙的活，一不拜神，二不怕抄，一路打怪升级不敢飘
+  - name: bituplink
+    url: http://www.bituplink.com/
+    img: /images/logos/d13673a9139afe7d.jpg
+    description: 分享有价值的软件资源和经验技巧
+  - name: Emin.ink
+    url: https://www.emin.ink/
+    img: /images/logos/37bf801be2bdea02.jpg
+    description: Emin的个人博客，记录踩坑技术笔记
+  - name: Hubery
+    url: https://www.panglb.top/
+    img: /images/logos/8d282e67784e97ec.jpg
+    description: 这里是Hubery的个人博客
+  - name: 深入浅出区块链
+    url: https://learnblockchain.cn/
+    img: /images/logos/5ec9fef7de4768bc.jpg
+    description: 专业的区块链技术博客
+  - name: 极客领空
+    url: https://www.icourse163.org/
+    img: /images/logos/logo.webp
+    description: 专注分享资源,教程,与经验技巧，提高效率与趣味
+  - name: 嗨趣儿
+    url: https://www.hiquer.com/
+    img: /images/logos/5b90a9311a9c49a8.jpg
+    description: 够嗨才有趣儿，一个有趣的网站，实用的网站。
+  - name: 佛系软件
+    url: https://www.foxirj.com/
+    img: /images/logos/a4e385521342b44d.jpeg
+    description: 个人独立运营的软件资源下载网站，主要精选分享mac、安卓、windows等破解软件。
+
+navigate:
+  - name: GitNavi
+    url: http://www.gitnavi.com/
+    img: /images/logos/dbce3df17c4ada9d.png
+    description: 你的专属生活网址导航，注册成会员后可制作一个属于自己的专属导航。
+  - name: 龙瞄导航
+    url: https://ailongmiao.com/
+    img: /images/logos/1fc550a93896a6d1.png
+    description: 一个有态度的网址导航网站，收录和分享各种优质网站，内容收录非常丰富。
+  - name: 五花八门导航
+    url: http://lxqnsys.com/d/
+    img: /images/logos/1e4b3a609b15d31.png
+    description: 邂逅你的网站。
+  - name: 爱达杂货铺
+    url: https://adzhp.cn/
+    img: /images/logos/7583f04adeb60cff.png
+    description: 发现不一样的网络世界
+  - name: 笔点
+    url: https://www.bidianer.com/
+    img: /images/logos/bcea8acdaa44f309.jpg
+    description: 用心做最简洁的网址导航
+  - name: 绿狐导航
+    url: http://www.lvfox.cn/
+    img: /images/logos/3210f495bae9fead.png
+    description: 做个轻巧而有用的导航！设主页终身得积分！
+  - name: 超链网
+    url: http://www.lian81.com/
+    img: /images/logos/9528ebd9e280a713.png
+    description: 发现更大的互联网世界，一个实用、好玩儿、有干货的自定义导航网站。
+  - name: 沃客导航
+    url: http://www.waysto.work/
+    img: /images/logos/5d5903428b7bced2.png
+    description: 精选优质高效实用的网址，提高工作效率与生活质量的网址导航。
+  - name: 24K导航
+    url: https://www.24kdh.com/
+    img: /images/logos/7db273bc84bccd08.png
+    description: 简单事，高效做！一个有个性的网址导航。
+  - name: 野创职业导航
+    url: https://www.yechuang.net/sheji
+    img: /images/logos/ce2e3e66ce11b7c9.png
+    description: 致力于提供优秀的垂直行业网站、工具
+  - name: GY导航
+    url: http://nav.ailuoku6.top/
+    img: /images/logos/8e2b1b583d5a64ef.png
+    description: 高度可定制的上网导航
+  - name: 比格张
+    url: https://bigezhang.com/
+    img: /images/logos/5a1638da0ca13451.jpg
+    description: 发现更好的网站
+
+
+Class:
+  - name: 网易公开课
+    url: http://open.163.com/
+    img: /images/logos/wangyi.png
+    description: 随时随地上名校公开课
+  - name: 网易云课堂
+    url: https://study.163.com/
+    img: /images/logos/wangyiyunketang.jpg
+    description: 我的职业课堂
+  - name: 中国大学MOOC
+    url: https://www.icourse163.org/
+    img: /images/logos/mooc.png
+    description: 国家精品课程在线学习平台官方
+  - name: TED演讲
+    url: https://www.ted.com/
+    img: /images/logos/ted.png
+    description: 专家演讲者的视频网站
+
+devTools:
+  - name: Github
+    url: https://github.com/
+    img: /images/logos/github.png
+    description: 面向开源及私有软件项目的托管平台
+  - name: DEV
+    url: https://dev.to/
+    img: /images/logos/DEV.png
+    description: 建设性和包容性的社交网络
+  - name: Indie Hackers
+    url: https://www.indiehackers.com/
+    img: /images/logos/Indiehackers.png
+    description: 一个网站和社区
+
+webTools:
+  - name: Github
+    url: https://github.com/
+    img: /images/logos/github.png
+    description: 面向开源及私有软件项目的托管平台
+  - name: 云生博客
+    url: https://qikaile.tk/
+    img: /images/logos/myblog.png
+    description: 心静思远，志行千里。
+  - name: Vercel
+    url: http://vercel.com/
+    img: /images/logos/vercel.png
+    description: 静态和Jamstack部署，无服务器功能和全局CDN
+  - name: Gmail邮箱
+    url: https://mail.google.com/
+    img: /images/logos/Gmail.png
+    description: Google邮箱
+  - name: E5开发者控制台
+    url: https://portal.office.com/AdminPortal/Home
+    img: /images/logos/office.png
+    description: Office开发者账号登录
+  - name: Cloudflare
+    url: https://www.cloudflare.com/
+    img: /images/logos/cloudflare.png
+    description: 安全、快速、可靠、经济高效的网络服务
+  - name: 云生影视
+    url: https://kaikq.gq/
+    img: /images/logos/movie.png
+    description: 云生的个人影院
+  - name: Hostloc
+    url: https://www.hostloc.com/
+    img: /images/logos/hostloc.png
+    description: 全球主机交流论坛
+  - name: 吾爱破解论坛
+    url: https://www.52pojie.cn/
+    img: /images/logos/52pojie.jpg
+    description: 软件安全与病毒分析的前沿
+
+
+hotTools:
+  - name: 24小时邮箱
+    url: http://24mail.chacuo.net/
+    img: /images/logos/default_site.png
+    description: 临时邮箱
+  - name: 白描网页版
+    url: https://web.baimiaoapp.com/
+    img: /images/logos/baimiao.png
+    description: 图片文字提取,电子表格识别,扫描 PDF 转文字。
+  - name: 在线图表
+    url: https://chartcube.alipay.com/guide
+    img: /images/logos/chartcube.png
+    description: 在线绘图网站
+  - name: 草料二维码
+    url: https://cli.im/
+    img: /images/logos/cli.png
+    description: 在线二维码美化网站
+  - name: MikuTools
+    url: https://tools.miku.ac/
+    img: /images/logos/MikuTools.png
+    description: 工具集合网站
+  - name: Urlify 短网址
+    url: https://urlify.cn/
+    img: /images/logos/urlify.png
+    description: 短链接网站
+  - name: 墨灵音乐·一站式音乐体验
+    url: https://ziyouyinyue.com/
+    img: /images/logos/zhanwei.gif
+    description: 在线听歌、全设备支持、一键下载。无需注册登陆、无任何推广广告、无需下载客户端。
+  - name: docsmall
+    url: https://docsmall.com/
+    img: /images/logos/c22f461ac3da736c.jpg
+    description: 免费在线图片压缩、GIF压缩工具、PDF压缩工具、PDF合并工具、PDF分割工具
+  - name: 微词云
+    url: https://www.weiciyun.com/
+    img: /images/logos/2cec5b784df5242f.jpg
+    description: 简单好用的在线图片压缩工具 微词云
+  - name: 顶空影视
+    url: http://www.dikotv.com/
+    img: /images/logos/3cd9238ef3ae9cf.jpg
+    description: 全网VIP影视免费在线播放-2019最新院线电影美剧-高清无广告
+  - name: 盘搜搜
+    url: http://www.pansoso.org/
+    img: /images/logos/92501cde515b06a7.jpg
+    description: 好用的百度云盘搜索引擎
+  - name: 小小影视
+    url: https://007ys1.com/
+    img: /images/logos/favicon.png
+    description: 最新电影电视剧和连载动漫手机免费在线观看
+
+
+myBlog:
+  - name: 云生博客
+    url: https://qikaile.tk/
+    img: /images/logos/myBlog.png
+    description: 一个懒人的博客。
+
+about:
+  url: /about/
+  icon: far fa-heart
+  name: 关于本站
+
+aboutPage:
+  website:
+    head: 关于本站
+    html: '<blockquote><p>本站是hexo主题<a href="https://github.com/Qikaile/hexo-theme-webstack">hexo-theme-webstack</a>的demo站。</p></blockquote>'
+  webmaster:
+    head: 关于站长
+    name: 云生
+    url: https://qikaile.tk/
+    img: /images/logos/myblog.png
+    description: 心静思远，志行千里。
+
+since: 2020
+
+busuanzi:
+  enable: true
+  position: sidebar # 'footer','sidebar'
+  pv: 本站总访问量$pv
+  uv: 本站总访客数$uv
+
+custom:
+  head: |- # 以下内容插入到<head></head>标签内，可设置多行，注意每行开头至少四个空格
+    <!-- 直接添加html内容即可 -->
+    <!-- 可设置多行 -->
+  body: |- # 以下内容插入到</body>标签之前，可设置多行，注意每行开头至少四个空格
+    <!-- 直接添加html内容即可 -->
+    <!-- 可设置多行 -->
+
+js:
+  header: /js/header.js
+  footer: /js/footer.js
+  jquery: /js/jquery-1.11.1.min.js
+  bootstrap: /js/bootstrap.min.js
+  TweenMax: /js/TweenMax.min.js
+  resizeable: /js/resizeable.min.js
+  joinable: /js/joinable.js
+  xenonApi: /js/xenon-api.min.js
+  xenonToggles: /js/xenon-toggles.min.js
+  xenonCustom: /js/xenon-custom.min.js
+  lozad: /js/lozad.min.js
+  html5shiv: /js/html5shiv.min.js
+  respond: /js/respond.min.js
+  busuanzi: https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js
+
+css:
+  hclonely: /css/hclonely.css
+  fonts: //fonts.loli.net/css?family=Arimo:400,700,400italic
+  linecons: /css/fonts/linecons/css/linecons.min.css
+  fontawesome: /css/fonts/fontawesome/css/all.min.css
+  bootstrap: /css/bootstrap.min.css
+  xenonCore: /css/xenon-core.min.css
+  xenonComponents: /css/xenon-components.min.css
+  xenonSkins: /css/xenon-skins.min.css
+  nav: /css/nav.min.css
