@@ -22,6 +22,9 @@ menu:
       - name: 在线工具
         icon: fas fa-tools
         config: hotTools
+      - name: 图片处理
+        icon: fas fa-tools
+        config: imgTools
       - name: 在线课程
         icon: fas fa-tools
         config: Class
@@ -31,6 +34,9 @@ menu:
       - name: 社区博客
         icon: fas fa-tools
         config: Communityblog
+      - name: 站长工具
+        icon: fas fa-tools
+        config: stationTools
 
   - name: 其他工具
     icon: fas fa-tools
@@ -41,6 +47,90 @@ menu:
       - name: 我的博客
         icon: fas fa-blog
         config: myBlog
+
+stationTools:
+  - name: 站长工具
+    url: http://tool.chinaz.com/
+    img: /images/logos/1582866066_5849.png
+    description: 站长之家
+  - name: NodeCache
+    url: https://www.nodecache.com/
+    img: /images/logos/NodeCache.png
+    description: NodeCache-赋能数据 智启边缘
+  - name: 又拍云
+    url: https://console.upyun.com/
+    img: /images/logos/consoleupyun.png
+    description: 国内知名企业级云服务商,在全球拥有1100多个自建CDN节点,10TB保有带宽,为25万用户提供CDN,云存储
+  - name: 萌精灵CDN
+    url: https://cdn.moeelf.com/
+    img: /images/logos/cdnmoeelf.png
+    description: 面板|Cloudflare CNAME/IP 高级接入
+  - name: 笨牛网
+    url: https://smartmockups.com/mockups
+    img: /images/logos/bnxb.png
+    description: 免费CloudFlare CDN 防御系统 CNAME接入 批量添加域名 解析 批量添加防火墙 支持railgun
+  - name: DNSPod
+    url: https://www.dnspod.cn/
+    img: /images/logos/dnspod.png
+    description: 免费智能DNS解析服务商-电信_网通_教育网,智能DNS
+
+imgTools:
+  - name: 犸良
+    url: https://design.alipay.com/emotion
+    img: /images/logos/1580437786_6681.png
+    description: 蚂蚁设计服务平台
+  - name: 在线PS
+    url: https://ps.gaoding.com/
+    img: /images/logos/gaoding.png
+    description: PS软件网页版，ps在线图片处理工具photopea-稿定设计PS
+  - name: Photopea
+    url: https://www.photopea.com/
+    img: /images/logos/1577522438_447.png
+    description: Online Photo Editor
+  - name: 样机图-cleanmock
+    url: https://cleanmock.com/designer
+    img: /images/logos/mockup.png
+    description: 简单而漂亮地模仿你的设计
+  - name: 样机图-smartmockups
+    url: https://smartmockups.com/mockups
+    img: /images/logos/1580706832_5533.png
+    description: 专业产品模型
+  - name: GIF编辑-soogif
+    url: https://www.soogif.com/gifTool?utmId=9005
+    img: /images/logos/soogif.png
+    description: 免费动图在线制作工具-在线生成gif动态图片-多张图一键合成gif
+  - name: AI画伯-AI Gahaku
+    url: https://ai-art.tokyo/en/
+    img: /images/logos/tokyo.png
+    description: AI Gahaku
+  - name: 无损放大-bigjpg
+    url: https://bigjpg.com/zh
+    img: /images/logos/bigjpg.png
+    description: AI人工智能图片无损放大 - 使用人工智能深度卷积神经网络(CNN)无损放大图片
+  - name: 压缩-TinyPNG
+    url: https://tinypng.com/
+    img: /images/logos/1576574618_5120.png
+    description: 压缩图像，同时保持透明度
+  - name: 抠图
+    url: https://koutu.gaoding.com/
+    img: /images/logos/gaoding.png
+    description: 在线抠图软件_ps抠图证件照换底色-稿定设计
+  - name: 抠图-remove.bg
+    url: https://www.remove.bg/zh
+    img: /images/logos/remove.png
+    description: 消除图片中的背景
+  - name: 拼字幕-有啦
+    url: https://www.yoo.la/
+    img: /images/logos/1580369617_9705.png
+    description: 有啦拼字幕
+  - name: 智能上色ImagetoImage
+    url: https://affinelayer.com/pixsrv/index.html
+    img: /images/logos/affinelayer.png
+    description: 智能上色
+  - name: favicon制作
+    url: https://tool.lu/favicon/
+    img: /images/logos/toollu.png
+    description: favicon制作
 
 Communityblog:
   - name: 鹏少资源网
@@ -263,12 +353,48 @@ hotTools:
     url: https://007ys1.com/
     img: /images/logos/favicon.png
     description: 最新电影电视剧和连载动漫手机免费在线观看
+  - name: 自由钢琴
+    url: https://www.autopiano.cn/
+    img: /images/logos/autopiano.ico
+    description: 在线弹钢琴，听钢琴曲，超好听，超好玩
+  - name: 网易见外
+    url: https://jianwai.youdao.com/
+    img: /images/logos/wangyijianwai.png
+    description: 网易见外工作台
+  - name: 一个热评墙
+    url: https://www.6dabc.cn/
+    img: /images/logos/b7601575074786.png
+    description: 网易云热门评论
+  - name: 云短信
+    url: https://www.materialtools.com/
+    img: /images/logos/yunduanxin.png
+    description: 在线短信接收
+  - name: 微信网页版
+    url: https://wx.qq.com/
+    img: /images/logos/1578727821_5564.png
+    description: 微信网页版
+  - name: 便民查询网
+    url: https://www.51240.com/
+    img: /images/logos/bianming.png
+    description: 免费查询工具大全 - 51240便民查询网
+  - name: gitmind-在线导图
+    url: https://gitmind.cn/
+    img: /images/logos/1590069080_1584.png
+    description: 免费在线思维导图软件
+  - name: 智能PPT
+    url: https://aippt.wps.cn/
+    img: /images/logos/aippt.png
+    description: WPS智能PPT
+  - name: 我爱斗图
+    url: https://www.52doutu.cn/
+    img: /images/logos/52doutu.png
+    description: 斗图表情包在线制作
 
 
 myBlog:
   - name: 云生博客
     url: https://qikaile.tk/
-    img: /images/logos/myBlog.png
+    img: /images/logos/myblog.png
     description: 一个懒人的博客。
 
 about:
