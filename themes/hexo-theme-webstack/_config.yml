@@ -19,9 +19,24 @@ menu:
   - name: 工具合集
     icon: far fa-star
     submenu:
+      - name: 精品软件
+        icon: fas fa-tools
+        config: software
       - name: 在线工具
         icon: fas fa-tools
         config: hotTools
+      - name: 在线图库
+        icon: fas fa-tools
+        config: gallery
+      - name: PPT模板
+        icon: fas fa-tools
+        config: PPTTools
+      - name: 创意灵感
+        icon: fas fa-tools
+        config: inspiration
+      - name: 创意灵感
+        icon: fas fa-tools
+        config: inspiration
       - name: 图片处理
         icon: fas fa-tools
         config: imgTools
@@ -47,6 +62,264 @@ menu:
       - name: 我的博客
         icon: fas fa-blog
         config: myBlog
+
+gallery:
+  - name: 包图网
+    url: https://ibaotu.com/
+    img: /images/logos/ibaotu.ico
+    description: 专注原创商用设计图片下载，会员免费设计素材模板独家图库
+  - name: Dribbble
+    url: https://dribbble.com/
+    img: /images/logos/1580462294_1495.ico
+    description: 发现世界顶级设计师和创意专业人士
+  - name: Pixabay
+    url: https://pixabay.com/zh/
+    img: /images/logos/pixabay.png
+    description: 免费正版高清图片素材库 超过1.9百万张优质图片和视频素材可供免费使用和下载
+  - name: Unsplash(国内镜像)
+    url: https://unsplash.dogedoge.com/
+    img: /images/logos/unsplash.ico
+    description: 美丽的免费图片
+  - name: StockSnap
+    url: https://stocksnap.io/
+    img: /images/logos/stocksnap.webp
+    description: 免费库存照片
+  - name: Pexels
+    url: https://www.pexels.com/zh-cn/
+    img: /images/logos/pexels.ico
+    description: 免费素材图片
+  - name: Librestock
+    url: https://librestock.com/
+    img: /images/logos/1576674985_1756.png
+    description: 免费照片搜索引擎
+  - name: unDraw
+    url: https://undraw.co/illustrations
+    img: /images/logos/undraw.ico
+    description: 插图
+  - name: 500px(国内版)
+    url: https://500px.com.cn/community/discover
+    img: /images/logos/1576660021_7736.png
+    description: 热门摄影作品-优秀摄影作品欣赏-500px摄影社区
+  - name: 天空之城
+    url: https://www.skypixel.com/
+    img: /images/logos/1580207978_7946.ico
+    description: 全球航拍爱好者和专业摄影师的作品社区
+  - name: 搜图神器
+    url: https://www.logosc.cn/so/
+    img: /images/logos/1577108586_1438.png
+    description: 热免费版权图片一键搜索 - 搜图神器
+  - name: Foodiesfeed
+    url: https://www.foodiesfeed.com/
+    img: /images/logos/Foodiesfeed.ico
+    description: 食物图片
+  - name: 千图网
+    url: https://www.58pic.com/
+    img: /images/logos/58pic.ico
+    description: 免费设计图片素材网站-正版图库免费设计素材中国
+  - name: 千库网
+    url: https://588ku.com/
+    img: /images/logos/588ku.ico
+    description: 商用PNG图片免费下载_正版设计素材图库
+  - name: DesignersPics
+    url: http://www.designerspics.com/
+    img: /images/logos/DesignersPics.png
+    description: 商业和个人作品的免费照片
+  - name: GIPHY
+    url: https://giphy.com/
+    img: /images/logos/giphy.png
+    description: 制作你自己的动画GIF
+
+Wallpaper:
+  - name: Wallhaven
+    url: https://wallhaven.cc/
+    img: /images/logos/1593093008_5909.ico
+    description: Awesome Wallpapers
+  - name: Unsplash壁纸(国内镜像)
+    url: https://unsplash.dogedoge.com/t/wallpapers
+    img: /images/logos/unsplash.ico
+    description: 美丽的免费图片
+  - name: 极简壁纸
+    url: https://bz.zzzmh.cn/
+    img: /images/logos/zzzmh.ico
+    description: 海量电脑桌面壁纸美图_4K超高清_最潮壁纸网站
+  - name: wallroom
+    url: https://wallroom.io/
+    img: /images/logos/wallroom.ico
+    description: 高清/4K/5K分辨率壁纸/背景壁纸
+  - name: 彼岸图网
+    url: http://pic.netbian.com/
+    img: /images/logos/netbian.ico
+    description: 4K壁纸_4K图片_4K高清壁纸下载_4K,5K,6K,7K,8K壁纸图片素材
+  - name: Wallpaper Abyss
+    url: https://wall.alphacoders.com/?lang=Chinese
+    img: /images/logos/1593102083_9679.ico
+    description: 高清壁纸, 桌面背景
+  - name: wallpaperswide
+    url: http://wallpaperswide.com/
+    img: /images/logos/wallpaperswide.png
+    description: 4K&8K超高清桌面背景和壁纸，适用于UHD电视、超宽屏桌面、平板电脑、智能手机和多显示器
+  - name: mac动态壁纸
+    url: https://www.dynamicwallpaper.club/gallery
+    img: /images/logos/dynamicwallpaper.ico
+    description: mac动态壁纸
+  - name: 壁纸-堆糖
+    url: https://www.duitang.com/category/?cat=wallpaper
+    img: /images/logos/duitang_favicon.ico
+    description: 美图壁纸兴趣社区
+
+inspiration:
+  - name: 站酷 (ZCOOL)
+    url: https://www.zcool.com.cn/
+    img: /images/logos/zcool.ico
+    description: 设计师互动平台 - 打开站酷，发现更好的设计！
+  - name: Behance
+    url: https://www.behance.net/
+    img: /images/logos/Behance.ico
+    description: Behance 作品精选
+  - name: 站酷海洛
+    url: https://www.hellorf.com/
+    img: /images/logos/hellorf.ico
+    description: 正版图片,视频,字体,音乐素材交易平台
+  - name: 图怪兽作图神器
+    url: https://818ps.com/
+    img: /images/logos/818ps.ico
+    description: 在线图片编辑器-PS图片制作-搞定平面设计不求人
+  - name: 稿定设计
+    url: https://www.gaoding.com/introduction
+    img: /images/logos/gaoding.png
+    description: 做图做视频必备_在线设计神器_海量版权素材模板
+  - name: 创客贴
+    url: https://www.chuangkit.com/
+    img: /images/logos/chuangkit.ico
+    description: 平面设计作图神器_免费设计模板_在线稿定设计印刷
+  - name: pinterest
+    url: https://www.pinterest.com/
+    img: /images/logos/pinterest.jpg
+    description: 需要科学上网
+  - name: Designspiration
+    url: https://www.designspiration.com/
+    img: /images/logos/Designspiration.png
+    description: 设计灵感
+  - name: 花瓣网
+    url: https://huaban.com/
+    img: /images/logos/huaban.ico
+    description: 陪你做生活的设计师（创意灵感天堂，搜索、发现设计灵感、设计素材）
+  - name: 优设网
+    url: https://www.uisdc.com/
+    img: /images/logos/uisdc.ico
+    description: 设计师交流学习平台 - 看设计文章，学软件教程，找灵感素材，尽在优设网！
+
+PPTTools:
+  - name: OfficePLUS
+    url: http://www.officeplus.cn/List.shtml?cat=PPT
+    img: /images/logos/OfficePLUS.ico
+    description: 微软Office官方在线模板网站！
+  - name: 优品PPT
+    url: http://www.ypppt.com/moban/
+    img: /images/logos/ypppt.ico
+    description: PPT模板下载_PPT模板免费下载_幻灯片模板下载
+  - name: WPS稻壳儿
+    url: https://www.docer.com/s/wpp/12
+    img: /images/logos/wpp.ico
+    description: ppt模板下载_免费模板模板下载
+  - name: 第1PPT
+    url: http://www.1ppt.com/moban/
+    img: /images/logos/1ppt.ico
+    description: PPT模板下载_PPT模板免费下载
+  - name: PPT超级市场
+    url: http://ppt.sotary.com/web/wxapp/index.html
+    img: /images/logos/sotary.ico
+    description: PPT超级市场
+  - name: 51PPT模板网
+    url: http://www.51pptmoban.com/ppt/
+    img: /images/logos/51ppt.ico
+    description: 免费ppt模板,ppt模板下载,幻灯片模板
+  - name: 锐普PPT
+    url: http://www.rapidbbs.cn/forum-7-1.html
+    img: /images/logos/rapidbbs.ico
+    description: 免费PPT模板 汇报PPT模板 宣传PPT模板 课件PPT模板 动画PPT模板-锐普PPT论坛
+  - name: 逼格PPT
+    url: http://www.tretars.com/
+    img: /images/logos/1577067749_3870.png
+    description: ppt模板_ppt下载_免费ppt_比格ppt
+  - name: PPTStore
+    url: https://www.pptstore.net/ppt_free/
+    img: /images/logos/pptstore.ico
+    description: 【免费PPT模板】PPT模板、KEYNOTE模板免费下载
+  - name: PPTBOSS
+    url: https://www.pptboss.com/template-center
+    img: /images/logos/1580458209_2968.ico
+    description: PPT模板,PPT免费模板下载,免费PPT模板下载_第1页-PPTBOSS-免费PPT模板下载
+
+software:
+  - name: downloadly
+    url: https://downloadly.ir/
+    img: /images/logos/1596879674_4016.png
+    description: 免费下载软件-视窗、苹果、Linux、教育视频、连续剧、安卓-下载
+  - name: 果核剥壳
+    url: https://www.ghpym.com/
+    img: /images/logos/ghpym.png
+    description: 还原软件的本质
+  - name: 大眼仔旭
+    url: http://www.dayanzai.me/
+    img: /images/logos/dayanzai.png
+    description: 专注视频剪辑、解压、录屏、思维导图等办公软件分享
+  - name: MSDN我告诉你
+    url: https://msdn.itellyou.cn/
+    img: /images/logos/itellyou.png
+    description: 做一个安静的工具站
+  - name: 微PE工具箱
+    url: http://www.wepe.com.cn/
+    img: /images/logos/wepe.png
+    description: 最好用的WinPE装机维护工具
+  - name: 423Down
+    url: https://www.423down.com/
+    img: /images/logos/423down.png
+    description: 去广告绿色软件网站
+  - name: 软件SOS
+    url: https://www.rjsos.com/
+    img: /images/logos/rjsos.png
+    description: 软件安装管家_软件激活工具下载
+  - name: 老殁
+    url: https://www.mpyit.com/
+    img: /images/logos/mpyit.png
+    description: 免费推荐优秀软件
+  - name: 精品绿色便携软件
+    url: https://www.portablesoft.org/
+    img: /images/logos/portablesoft.png
+    description: 精品绿色便携软件
+  - name: 正版中国
+    url: https://www.getitfree.cn/
+    img: /images/logos/1576549381_2702.png
+    description: 正版软件限时免费
+  - name: 软件箱
+    url: https://www.xxrjzs.com/
+    img: /images/logos/hdImg_98e328bc6bb2.jpg
+    description: OneIndex软件下载网站
+  - name: 腾龙工作室
+    url: https://www.tenlonstudio.com/
+    img: /images/logos/tenlonstudio.png
+    description: 腾龙工作室
+  - name: 独孤求软
+    url: http://www.dugubest.com/
+    img: /images/logos/dugubest.png
+    description: 常用软件一站齐全
+  - name: 小众软件
+    url: https://www.appinn.com/
+    img: /images/logos/Appinn-icon-32.jpg
+    description: 分享免费、小巧、实用、有趣、绿色的软件
+  - name: FXXKMAKEDING
+    url: https://www.fxxkmakeding.xyz/
+    img: /images/logos/default_site.png
+    description: 思杰马克丁软件
+  - name: 扩展迷
+    url: https://www.extfans.com/
+    img: /images/logos/extfans.png
+    description: Chrome插件/扩展,谷歌浏览器插件,谷歌应用商店插件推荐与下载
+  - name: 极简插件
+    url: https://chrome.zzzmh.cn/
+    img: /images/logos/zzzmh.png
+    description: Chrome扩展插件商店_优质crx应用
 
 stationTools:
   - name: 站长工具
@@ -185,7 +458,7 @@ Communityblog:
 navigate:
   - name: GitNavi
     url: http://www.gitnavi.com/
-    img: /images/logos/dbce3df17c4ada9d.png
+    img: /images/logos/gitnavi.ico
     description: 你的专属生活网址导航，注册成会员后可制作一个属于自己的专属导航。
   - name: 龙瞄导航
     url: https://ailongmiao.com/
@@ -236,20 +509,52 @@ navigate:
 Class:
   - name: 网易公开课
     url: http://open.163.com/
-    img: /images/logos/wangyi.png
+    img: /images/logos/open163.png
     description: 随时随地上名校公开课
   - name: 网易云课堂
     url: https://study.163.com/
-    img: /images/logos/wangyiyunketang.jpg
+    img: /images/logos/study163.png
     description: 我的职业课堂
   - name: 中国大学MOOC
     url: https://www.icourse163.org/
-    img: /images/logos/mooc.png
+    img: /images/logos/32a8dd2a-b9aa-4ec9-abd5-66cd8751befb.png
     description: 国家精品课程在线学习平台官方
   - name: TED演讲
     url: https://www.ted.com/
     img: /images/logos/ted.png
     description: 专家演讲者的视频网站
+  - name: 哔哩哔哩
+    url: https://www.bilibili.com/
+    img: /images/logos/bilibili.jpg
+    description: (゜-゜)つロ 干杯~-bilibili
+  - name: 学堂在线
+    url: https://www.xuetangx.com/
+    img: /images/logos/1580617612_1137.ico
+    description: 国家精品在线课程学习平台
+  - name: 我要自学网
+    url: https://www.51zxw.net/
+    img: /images/logos/51zxw.png
+    description: 视频教程|免费教程|自学电脑|3D教程|平面教程|影视动画教程|办公教程|机械设计教程|网站设计教程-我要自学网
+  - name: 实验楼
+    url: https://www.lanqiao.cn/courses/
+    img: /images/logos/shiyanlou.png
+    description: 精选项目课程_IT热门课程_蓝桥课程 - 蓝桥
+  - name: Coursera
+    url: https://www.coursera.org/
+    img: /images/logos/Coursera.jpg
+    description: 利用顶级机构的在线课程培养技能
+  - name: 计蒜客
+    url: https://www.jisuanke.com/
+    img: /images/logos/jisuanke.png
+    description: 学习面向未来的计算机科学
+  - name: 站酷高高手
+    url: https://www.gogoup.com/
+    img: /images/logos/1577196370_1345.png
+    description: 艺术设计在线教育平台 - 独家插画,品牌,平面,视觉,UI,运营设计,摄影艺术课程培训
+  - name: 万门
+    url: https://www.wanmen.org/
+    img: /images/logos/1577196169_5367.png
+    description: 大学职场课程-官网首页
 
 devTools:
   - name: Github
@@ -339,7 +644,7 @@ hotTools:
     description: 免费在线图片压缩、GIF压缩工具、PDF压缩工具、PDF合并工具、PDF分割工具
   - name: 微词云
     url: https://www.weiciyun.com/
-    img: /images/logos/2cec5b784df5242f.jpg
+    img: /images/logos/weiciyun.png
     description: 简单好用的在线图片压缩工具 微词云
   - name: 顶空影视
     url: http://www.dikotv.com/
