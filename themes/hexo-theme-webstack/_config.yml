@@ -374,6 +374,10 @@ PPTTools:
     description: PPT模板,PPT免费模板下载,免费PPT模板下载_第1页-PPTBOSS-免费PPT模板下载
 
 IconLogo:
+  - name: ICONS8
+    url: https://icons8.com/
+    img: /images/logos/icons8.png
+    description: 免费图标，手工插图，照片和音乐
   - name: iconfont
     url: https://www.iconfont.cn/
     img: /images/logos/iconfont.ico
@@ -916,7 +920,7 @@ js:
 
 css:
   hclonely: /css/hclonely.css
-  fonts: //fonts.loli.net/css?family=Arimo:400,700,400italic
+  fonts: //fonts.dogedoge.com/css?family=Arimo:400,700,400italic
   linecons: /css/fonts/linecons/css/linecons.min.css
   fontawesome: /css/fonts/fontawesome/css/all.min.css
   bootstrap: /css/bootstrap.min.css
