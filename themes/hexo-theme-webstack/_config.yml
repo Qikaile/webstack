@@ -28,24 +28,36 @@ menu:
       - name: 在线图库
         icon: fas fa-tools
         config: gallery
+      - name: 在线壁纸
+        icon: fas fa-tools
+        config: Wallpaper
       - name: PPT模板
         icon: fas fa-tools
         config: PPTTools
       - name: 创意灵感
         icon: fas fa-tools
         config: inspiration
-      - name: 创意灵感
-        icon: fas fa-tools
-        config: inspiration
       - name: 图片处理
         icon: fas fa-tools
         config: imgTools
+      - name: 图标ICON
+        icon: fas fa-tools
+        config: IconLogo
+      - name: 在线字体
+        icon: fas fa-tools
+        config: FontTools
+      - name: 音效下载
+        icon: fas fa-tools
+        config: SoundTools
       - name: 在线课程
         icon: fas fa-tools
         config: Class
       - name: 网址导航
         icon: fas fa-tools
         config: navigate
+      - name: 音乐博客
+        icon: fas fa-tools
+        config: Musicblog
       - name: 社区博客
         icon: fas fa-tools
         config: Communityblog
@@ -62,6 +74,62 @@ menu:
       - name: 我的博客
         icon: fas fa-blog
         config: myBlog
+
+Musicblog:
+  - name: 洛奇Town
+    url: https://ifish.fun/
+    img: /images/logos/fish.png
+    description: 鱼声音乐精选
+  - name: 清音陋屋
+    url: http://www.52qingyin.cn/
+    img: /images/logos/52qingyin.ico
+    description: 优美纯音乐精美散文分享网站
+  - name: 挖沙网
+    url: https://www.waasaa.com/
+    img: /images/logos/waasaa.ico
+    description: 挖掘记忆中那些有深度的声音，打造多元音乐文化专栏
+  - name: 有格调
+    url: https://www.ugediao.com/category/music
+    img: /images/logos/ugediao.ico
+    description: 音乐推荐,歌曲推荐
+  - name: 耳朵的主人
+    url: http://www.edzbe.com/
+    img: /images/logos/edzbe.ico
+    description: 庆幸还有耳朵，还可以是耳朵的主人
+  - name: 挖沙网
+    url: https://www.waasaa.com/
+    img: /images/logos/waasaa.ico
+    description: 挖掘记忆中那些有深度的声音，打造多元音乐文化专栏
+  - name: 麦田音乐网
+    url: https://www.mtyyw.com/
+    img: /images/logos/mtyyw.ico
+    description: 用音乐和文字温暖生活
+  - name: 水手音乐
+    url: http://www.musicsailor.com/
+    img: /images/logos/cropped.jpg
+    description: Sailor Music
+
+SoundTools:
+  - name: 淘声网toSound
+    url: https://www.tosound.com/
+    img: /images/logos/toSound.ico
+    description: 声音搜索引擎 - 免费音效素材资源|视频游戏配乐下载
+  - name: 耳聆网
+    url: https://www.ear0.com/sound/list
+    img: /images/logos/ear0.ico
+    description: 声音列表 - 声音 - 耳聆网 - (声音分享云|音效素材库)
+  - name: 爱给网
+    url: https://www.aigei.com/sound/
+    img: /images/logos/aigei.ico
+    description: 音效 音效网 声音网 音效素材 音效下载 游戏音效
+  - name: 小森平的音效
+    url: https://taira-komori.jpn.org/freesoundcn.html
+    img: /images/logos/komori.ico
+    description: 小森平的免费下载音效
+  - name: 站长音效
+    url: https://sc.chinaz.com/yinxiao/
+    img: /images/logos/chinaz.ico
+    description: 音效下载、音效素材免费下载、音效网
 
 gallery:
   - name: 包图网
@@ -128,6 +196,60 @@ gallery:
     url: https://giphy.com/
     img: /images/logos/giphy.png
     description: 制作你自己的动画GIF
+
+FontTools:
+  - name: 360查字体
+    url: https://fonts.safe.360.cn/
+    img: /images/logos/t014de4ba13ada26743.png
+    description: 查版权，免纠纷
+  - name: 求字体
+    url: http://www.qiuziti.com/
+    img: /images/logos/qiuziti.ico
+    description: 字体下载-求字体网提供中文和英文字体库下载、识别与预览服务，找字体的好帮手
+  - name: 猫啃网
+    url: http://www.maoken.com/all-fonts
+    img: /images/logos/maoken.ico
+    description: 免费字体下载大全，可免费商用中文字体一览表
+  - name: 100font.com
+    url: https://www.100font.com/
+    img: /images/logos/100font.ico
+    description: 免版权字体下载、免费商用字体下载网站
+  - name: 字由
+    url: https://www.hellofont.cn/font-list?tag=73
+    img: /images/logos/hellofont.ico
+    description: 全部字体
+  - name: instantlogosearch
+    url: http://instantlogosearch.com/
+    img: /images/logos/instantlogosearch.png
+    description: 品牌LOGO
+  - name: 字体天下
+    url: https://www.fonts.net.cn/commercial-free-32767/fonts-zh-1.html
+    img: /images/logos/zititianxia.ico
+    description: 商用免费的中文字体的免费下载和在线预览
+  - name: 字魂网
+    url: https://izihun.com/
+    img: /images/logos/izihun.ico
+    description: 商用字体下载，字体定制，在线免费字体下载
+  - name: 字体下载-优设网
+    url: https://www.uisdc.com/category/hot-download/fonts-download
+    img: /images/logos/uisdc.ico
+    description: 字体下载-优设网-UISDC
+  - name: Fontsup
+    url: https://fontsup.com/
+    img: /images/logos/fontsup.ico
+    description: 免费字体下载
+  - name: 字体传奇网
+    url: http://www.ziticq.com/
+    img: /images/logos/ziticq.ico
+    description: 中国字体品牌设计师交流网
+  - name: 站长字体下载
+    url: https://font.chinaz.com/
+    img: /images/logos/chinaz.ico
+    description: 分享PS字体、免费字体、商业字体库
+  - name: 字体之家
+    url: http://www.17ziti.com/
+    img: /images/logos/17ziti.ico
+    description: 手机字体下载大全,免费PS字体,手机软件下载,字体之家 - 更干净的字库下载站
 
 Wallpaper:
   - name: Wallhaven
@@ -250,6 +372,48 @@ PPTTools:
     url: https://www.pptboss.com/template-center
     img: /images/logos/1580458209_2968.ico
     description: PPT模板,PPT免费模板下载,免费PPT模板下载_第1页-PPTBOSS-免费PPT模板下载
+
+IconLogo:
+  - name: iconfont
+    url: https://www.iconfont.cn/
+    img: /images/logos/iconfont.ico
+    description: 阿里巴巴矢量图标库
+  - name: IconPark
+    url: http://iconpark.bytedance.com/
+    img: /images/logos/1601459061_470.png
+    description: 字节跳动图标库
+  - name: Easyicon
+    url: https://www.easyicon.net/
+    img: /images/logos/1576726595_5048.png
+    description: 图标下载，ICON(SVG/PNG/ICO/ICNS)图标搜索下载
+  - name: iconmonstr
+    url: https://iconmonstr.com/
+    img: /images/logos/iconmonstr.ico
+    description: 为你的下一个项目免费的简单图标
+  - name: Worldvectorlogo
+    url: https://worldvectorlogo.com/
+    img: /images/logos/Worldvectorlogo.png
+    description: 品牌logo免费下载
+  - name: instantlogosearch
+    url: http://instantlogosearch.com/
+    img: /images/logos/instantlogosearch.png
+    description: 品牌LOGO
+  - name: 60LOGO素材
+    url: https://www.60logo.com/list
+    img: /images/logos/60logo.ico
+    description: 找LOGO高清图片素材及矢量设计素材下载上60LOGO素材库
+  - name: flaticon
+    url: https://www.flaticon.com/
+    img: /images/logos/flaticon.ico
+    description: 免费矢量图标- SVG，PSD，PNG，EPS &图标字体-数千个免费图标
+  - name: Font Awesome
+    url: https://fontawesome.com/v4.7.0/icons/
+    img: /images/logos/fontawesome.ico
+    description: 品牌LOGO
+  - name: Mega Emoji
+    url: http://www.megaemoji.com/cn/all/
+    img: /images/logos/megaemoji.ico
+    description: 适用于 微博，微信，连我，FB，推特的超酷文本符号。特殊字符，符号尽在 超酷表情
 
 software:
   - name: downloadly
