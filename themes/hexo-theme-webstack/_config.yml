@@ -886,7 +886,7 @@ aboutPage:
     img: /images/logos/myblog.png
     description: 心静思远，志行千里。
 
-since: 2020-2021
+since: 2020
 
 busuanzi:
   enable: true
