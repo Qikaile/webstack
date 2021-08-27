@@ -48,5 +48,5 @@ jobs:
         git config --global user.name "qikaile"
         git config --global user.email "2649019047@qq.com"
         # 这里请改成你静态的仓库
-        git clone https://github.com/qikaile/webstack.git .deploy_git
+        git clone "https://github.com/qikaile/webstack.git" master:master .deploy_git
         hexo deploy
