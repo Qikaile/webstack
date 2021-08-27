@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 天镜云生
+title: 云墨小站
 subtitle: Welcome!
 description: 心静思远，志行千里。
-keywords: TJYS 云生 博客 天镜云生
+keywords: TJYS 云生 博客 云生
 author: TJYS
 language: zh-CN
 timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
-url: http://example.com
+url: https://box.js.cool/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
