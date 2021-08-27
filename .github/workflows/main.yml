@@ -1,0 +1,51 @@
+name: Auto Dep Hexo
+
+on: 
+  push:
+    branches:
+      - main # 如果你的是 main 那就改 main
+
+  release:
+    types:
+      - published
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Check 分支
+      uses: actions/checkout@v2
+      with:
+        ref: main # 如果你的是 main 那就改 main
+
+    - name: Install Node
+      uses: actions/setup-node@v1
+      with:
+        node-version: "12.x"
+
+    - name: Cache 依赖
+      uses: actions/cache@v2.1.1
+      id: cache-dependencies
+      with:
+        path: node_modules
+        key: ${{runner.OS}}-${{hashFiles('**/package-lock.json')}}    
+
+    - name: Install 依赖
+      if: steps.cache.outputs.cache-hit != 'true'
+      run: |
+        export TZ='Asia/Shanghai'
+        npm install hexo-cli -g
+        npm install --save
+    - name: 生成 Static File
+      run: |
+        hexo clean
+        #hexo douban -bgm
+        hexo generate
+        #gulp # 如果你没用到 gulp 压缩，请注释
+    - name: Deploy
+      run: |
+        git config --global user.name "qikaile"
+        git config --global user.email "2649019047@qq.com"
+        # 这里请改成你静态的仓库
+        git clone https://github.com/qikaile/webstack.git master:master .deploy_git
+        hexo deploy
