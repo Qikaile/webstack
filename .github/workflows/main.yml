@@ -1,51 +1,65 @@
-name: Auto Dep Hexo
+name: Deploy My_Blog  #自动化的名称
 
-on: 
-  push:
-    branches:
-      - main # 如果你的是 main 那就改 main
+on:
+  # Triggers the workflow on push or pull request events but only for the main branch
+  push: # push的时候触发
+    branches: [ main ]  # 哪些分支需要触发
+  pull_request:  
+    branches: [ dev ]
 
-  release:
-    types:
-      - published
-
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  deploy:
-    runs-on: ubuntu-latest
+  # This workflow contains a single job called "build"
+  Blog_CI-CD:
+    runs-on: ubuntu-latest  # 服务器环境
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    
     steps:
-    - name: Check 分支
-      uses: actions/checkout@v2
-      with:
-        ref: main # 如果你的是 main 那就改 main
-
-    - name: Install Node
-      uses: actions/setup-node@v1
-      with:
-        node-version: "12.x"
-
-    - name: Cache 依赖
-      uses: actions/cache@v2.1.1
-      id: cache-dependencies
-      with:
-        path: node_modules
-        key: ${{runner.OS}}-${{hashFiles('**/package-lock.json')}}    
-
-    - name: Install 依赖
-      if: steps.cache.outputs.cache-hit != 'true'
-      run: |
-        export TZ='Asia/Shanghai'
-        npm install hexo-cli -g
-        npm install --save
-    - name: 生成 Static File
-      run: |
-        hexo clean
-        #hexo douban -bgm
-        hexo generate
-        #gulp # 如果你没用到 gulp 压缩，请注释
-    - name: Deploy
-      run: |
-        git config --global user.name "qikaile"
-        git config --global user.email "2649019047@qq.com"
-        # 这里请改成你静态的仓库
-        git clone https://github.com/qikaile/webstack.git master:master .deploy_git
-        hexo deploy
+      # 检查代码
+      - name: Checkout
+        uses: actions/checkout@v2  #软件市场的名称
+        with: # 参数
+          submodules: true
+          persist-credentials: false
+          
+      - name: Setup Node.js
+       # 设置 node.js 环境
+        uses: actions/setup-node@v1
+        with:
+          node-version: '12'
+          
+      - name: Cache node modules
+      # 设置包缓存目录，避免每次下载
+        uses: actions/cache@v1
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          
+      # 配置Hexo环境 
+      - name: Setup Hexo
+        env:
+          ACTION_DEPLOY_KEY: ${{ secrets.ACCESS_TOKEN }}
+        run: |
+          npm install hexo-cli -g
+          npm install
+           
+      
+      # 生成静态文件
+      - name: Build
+        run: |
+          hexo clean 
+          hexo g
+        
+      # 2、部署到 GitHub Pages
+      - name: upload GitHub repository
+        env: 
+          # Github 仓库
+          GITHUB_REPO: github.com/qikaile/webstack
+         # 将编译后的博客文件推送到指定仓库
+        run: |
+          cd ./public && git init && git add .
+          git config --global user.name "qikaile"  #username改为你github的用户名
+          git config --global user.email "2649019047@qq.com"  #username改为你github的注册邮箱
+          git add .
+          git commit -m "GitHub Actions Auto Builder at $(date +'%Y-%m-%d %H:%M:%S')"
+          git push --force --quiet "https://${{ secrets.ACCESS_TOKEN }}@$github.com/qikaile/webstack.git" master:master
