@@ -878,11 +878,11 @@ about:
 aboutPage:
   website:
     head: 关于本站
-    html: '<blockquote><p>本站是hexo主题<a href="https://github.com/Qikaile/hexo-theme-webstack">hexo-theme-webstack</a>的demo站。</p></blockquote>'
+    html: '<blockquote><p>本站是hexo主题<a href="https://github.com/Qikaile/webstack">hexo-theme-webstack</a>的demo站。</p></blockquote>'
   webmaster:
     head: 关于站长
     name: 云生
-    url: https://qikaile.tk/
+    url: https://blog.qikaile.tk/
     img: /images/logos/myblog.png
     description: 心静思远，志行千里。
 
