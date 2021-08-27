@@ -103,4 +103,5 @@ theme: hexo-theme-webstack
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: 'git'
+  repo: git@github.com:Qikaile/webstack.git master:master
