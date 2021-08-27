@@ -1,9 +1,9 @@
-name: Auto Dep Hexo
+name: Deploy   # 部署
 
 on: 
   push:
     branches:
-      - master # 如果你的是 main 那就改 main
+      - master # 如果你的是 main 那就改 main  # 推送到 main 分支（这里的分支名很重要，不要弄错了）
 
   release:
     types:
