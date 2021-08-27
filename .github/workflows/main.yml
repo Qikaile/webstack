@@ -16,7 +16,7 @@ jobs:
     - name: Check 分支
       uses: actions/checkout@v2
       with:
-        ref: main # 如果你的是 main 那就改 main
+        ref: master # 如果你的是 main 那就改 main
 
     - name: Install Node
       uses: actions/setup-node@v1
